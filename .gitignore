@@ -1,0 +1,4 @@
+.vagrant
+gems
+Gemfile
+Gemfile.lock
