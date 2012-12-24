@@ -98,5 +98,5 @@ Vagrant::Config.run do |config|
   #   chef.validation_client_name = "ORGNAME-validator"
   
   # Prepare with rvm and so on 
-  config.vm.provision :shell, :path => "scripts/vagrant_guest_init.sh"
+  config.vm.provision :shell, :inline => "su vagrant -c \"/vagrant/scripts/vagrant_guest_init.sh\""
 end
