@@ -6,6 +6,7 @@ UBIQUO_FOLDER=$PWD
 UBIQUO_GEMS_FOLDER="$UBIQUO_FOLDER/gems"
 PROJECT_NAME="PROJECT_NAME" # Replace with script param
 BUNDLER_VERSION="1.2.3" # TODO: Fix ubiquo to not require old 1.1.5 bundler"
+UBIQUO_REPO="git://github.com/gnuine/ubiquo.git"
 
 # To develop on Ubiquo edge:
 #
@@ -18,7 +19,7 @@ mkdir -p $UBIQUO_FOLDER
 
 mkdir -p $UBIQUO_GEMS_FOLDER
 cd $UBIQUO_GEMS_FOLDER 
-git clone git://github.com/gnuine/ubiquo.git
+git clone $UBIQUO_REPO
 
 # 3. Create a Gemfile on ~/workspace/ubiquo/Gemfile with
 BUNDLER_FILE=$UBIQUO_FOLDER/Gemfile
