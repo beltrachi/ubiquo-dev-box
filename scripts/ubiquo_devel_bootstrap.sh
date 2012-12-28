@@ -36,7 +36,7 @@ bundle exec ubiquo --edge --devel --rvm --gem-path $UBIQUO_GEMS_FOLDER/ubiquo --
 
 # 6. Init app -- Optional steps or steps that should be done in ubiquo binary
 cd $PROJECT_NAME
-bundle exec rake ubiquo:db:init
+rvm @$PROJECT_NAME do bundle exec rake ubiquo:db:init
 echo "Go to http://localhost:3000/ubiquo and create a user"
-bundle exec rails s
+rvm @$PROJECT_NAME do bundle exec rails s
 
