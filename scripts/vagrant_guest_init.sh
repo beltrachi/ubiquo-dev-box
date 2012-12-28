@@ -11,6 +11,6 @@ source /home/vagrant/.rvm/scripts/rvm
 
 rvm install $TARGET_RUBY_VERSION # Update version when required
 
-rvm --default use $TARGET_RUBY_VERSION
+rvm --default use $TARGET_RUBY_VERSION@global
 
 
