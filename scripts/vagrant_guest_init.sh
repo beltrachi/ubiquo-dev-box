@@ -13,4 +13,5 @@ rvm install $TARGET_RUBY_VERSION # Update version when required
 
 rvm --default use $TARGET_RUBY_VERSION@global
 
-
+# Install execjs engine - nodejs
+sudo apt-get -y install nodejs
