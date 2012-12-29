@@ -34,6 +34,8 @@ This will make a clone of the ubiquo repo in local and create a project that use
 the local code to build a project. This way you can make changes and push them to
 your fork to do a pull request.
 
+    /vagrant/gems/ubiquo # Contains the cloned repo that the project will be using.
+
 In the file ./scripts/ubiquo_devel_bootstrap.sh you have a sample of how to create
 a project.
 
