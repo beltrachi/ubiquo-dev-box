@@ -14,8 +14,8 @@ This project automates the setup to develop or build a project with Ubiquo.
 
 Building the virtual machine is this easy:
 
-    host $ git clone https://github.com/beltrachi/ubiquo-vagrant.git
-    host $ cd ubiquo-vagrant
+    host $ git clone https://github.com/beltrachi/ubiquo-dev-box.git
+    host $ cd ubiquo-dev-box
     host $ vagrant up
 
 That's it.
