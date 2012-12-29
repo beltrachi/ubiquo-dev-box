@@ -5,7 +5,7 @@
 UBIQUO_FOLDER=$PWD
 UBIQUO_GEMS_FOLDER="$UBIQUO_FOLDER/gems"
 PROJECT_NAME="sample_project" # Replace with script param
-UBIQUO_REPO="git://github.com/gnuine/ubiquo.git"
+UBIQUO_REPO="git://github.com/beltrachi/ubiquo.git"
 
 # To develop on Ubiquo edge:
 #
